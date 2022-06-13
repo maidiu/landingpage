@@ -91,7 +91,6 @@ padding: 32px 32px 48px;}
 .photobox {
     width: 220px;
     margin: 16px 16px 16px;
-    overflow-wrap: normal;
     }
 
 .caption {
@@ -161,5 +160,6 @@ margin-top: 0px;
     color: #f1e9f7;
     font-size: 18px;
     padding: 24px;
+    margin-bottom: -20px;
 
 }

@@ -85,14 +85,14 @@ padding: 32px 32px 48px;}
 
 .photo {
     display: flex;
-    flex-direction: row nowrap;
+    flex-direction: row wrap;
     margin-top: 16px;
 }
 .photobox {
-width: 220px;
-margin: 16px 16px 16px;
-
-}
+    width: 220px;
+    margin: 16px 16px 16px;
+    overflow-wrap: normal;
+    }
 
 .caption {
     display: flex;
